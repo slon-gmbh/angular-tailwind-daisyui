@@ -4,11 +4,12 @@
   "description": "This repo enables any Angular project to use [tailwind]([url](https://tailwindcss.com/)) and [daisyUI]([url](https://daisyui.com/)).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
   },
   "files": [
-    "postcss.config.js",
-    "tailwind.config.js"
+    "postinstall.js",
+    "template"
   ],
   "keywords": [],
   "author": "",
