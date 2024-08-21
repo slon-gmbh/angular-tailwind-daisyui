@@ -1,6 +1,6 @@
 {
   "name": "angular-tailwind-daisyui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This repo enables any Angular project to use [tailwind]([url](https://tailwindcss.com/)) and [daisyUI]([url](https://daisyui.com/)).",
   "main": "index.js",
   "scripts": {
