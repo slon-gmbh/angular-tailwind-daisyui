@@ -1,12 +1,12 @@
 {
   "name": "angular-tailwind-daisyui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This repo enables any Angular project to use [tailwind]([url](https://tailwindcss.com/)) and [daisyUI]([url](https://daisyui.com/)).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node postinstall.js",
-    "posti": "node postinstall.js"
+    "posti": "node postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "postinstall.js",

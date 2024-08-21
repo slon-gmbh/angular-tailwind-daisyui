@@ -8,7 +8,7 @@ const templateDir = path.join(__dirname, 'template');
 const filesToCopy = ['postcss.config.js', 'tailwind.config.js'];
 
 filesToCopy.forEach(file => {
-    const src = path.join(templateDir, file);
+    const src = path.join(templateDir, '/', file);
     const dest = path.join(process.cwd(), file);
 
     // Copy file if it doesn't already exist
